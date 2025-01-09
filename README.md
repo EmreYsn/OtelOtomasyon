@@ -45,3 +45,17 @@ Yönetici bu formdan önce FormAdmin.cs üzerinde bir oda seçicek ve bu forma g
 ![FormPayment](ScreenShoot/FormPayment.png)
 
 Yönetici bu formdan önce FormAdmin.cs üzerinde fatura tablosunda bir fatura seçicek ve bu forma geçince seçtiği faturanın bilgileriyle birlikte müşterinin adını , soyadını ve telefon numarasını ayrıca odanın numarasını , tipini ve odanın günlük fiyatını ve son olarak rezervasyonun Id'sini , müşterinin otele giriş zamanını , otelden çıkış zamanını ve toplam fiyatı görüntüleyebilecektir .
+
+![UseCase](ScreenShoot/Use-Case.png)
+
+Yönetici otele bağlıdır ve sisteme giriş yaparak oda , nüşteri , rezervasyon ve fatura yönetimini yapar .
+
+![Sınıf](ScreenShoot/Sınıf.png)
+
+Yönetici müşteri , fatura , rezervasyon ve oda ilişkisi birden çoğa olacak şekildedir . Oda rezervasyon ilişkisi de birden çoğa olacak şekildedir ayrıca rezervasyon fatura ilişkisi birden biredir.
+
+![ER](ScreenShoot/ER.png)
+
+Yönetici 'de adminId primary key'dir . Müşteri'de customerId primary key'dir . Oda'da roomId primary key'dir . Rezervasyon'da reservationId primary key , roomId ve customerId foreign key'dir . Fatura'da paymnetId primary key , reservationId ve customerId foreign key'dir .
+
+Youtube videosu linki = https://youtu.be/iTt9VyocPB0
