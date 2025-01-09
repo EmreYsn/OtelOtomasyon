@@ -6,4 +6,4 @@ Yönetici müşteri ekleyebilecek , silebilecek ve bilgilerini güncelleyebilece
 
 Yönetici sisteme giriş yaptıktan sonra yine kendisi gibi bir yönetici ekleyebilecek .
 
- 
+ ![FormAdmin](ScreenShot/FormAdmin.png)
