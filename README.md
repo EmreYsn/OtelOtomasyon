@@ -6,4 +6,10 @@ Yönetici müşteri ekleyebilecek , silebilecek ve bilgilerini güncelleyebilece
 
 Yönetici sisteme giriş yaptıktan sonra yine kendisi gibi bir yönetici ekleyebilecek .
 
- ![FormAdmin](ScreenShoot/FormAdmin.png)
+ ![FormAdminEntry](ScreenShoot/FormAdminEntry.png)
+
+Yönetici bu formda sisteme giriş yapmak için kayıtlı olan kullanıcı adı ve de şifresini girecek .
+
+![FormAdmin](ScreenShoot/FormAdmin.png)
+
+Yönetici bu formda oda ekleyebilecek , silebilecek , durumunu güncelleyebilecek ve de oda tipini değiştirebilecek . Bu formdan müşteri işlemleri , oda listesi , yönetici kaydı ve fatura formlarına geçiş yapabilecektir .
