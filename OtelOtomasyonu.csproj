@@ -71,64 +71,64 @@
     <Compile Include="EntityLayer\Payment.cs" />
     <Compile Include="EntityLayer\Reservation.cs" />
     <Compile Include="EntityLayer\Room.cs" />
-    <Compile Include="FormCustomerChange.cs">
+    <Compile Include="PresentationLayer\FormCustomerChange.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomerChange.Designer.cs">
+    <Compile Include="PresentationLayer\FormCustomerChange.Designer.cs">
       <DependentUpon>FormCustomerChange.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCustomerRegister.cs">
+    <Compile Include="PresentationLayer\FormCustomerRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomerRegister.Designer.cs">
+    <Compile Include="PresentationLayer\FormCustomerRegister.Designer.cs">
       <DependentUpon>FormCustomerRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAdminEntry.cs">
+    <Compile Include="PresentationLayer\FormAdminEntry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAdminEntry.Designer.cs">
+    <Compile Include="PresentationLayer\FormAdminEntry.Designer.cs">
       <DependentUpon>FormAdminEntry.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAdmin.cs">
+    <Compile Include="PresentationLayer\FormAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAdmin.Designer.cs">
+    <Compile Include="PresentationLayer\FormAdmin.Designer.cs">
       <DependentUpon>FormAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormAdminRegister.cs">
+    <Compile Include="PresentationLayer\FormAdminRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormAdminRegister.Designer.cs">
+    <Compile Include="PresentationLayer\FormAdminRegister.Designer.cs">
       <DependentUpon>FormAdminRegister.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormCustomer.cs">
+    <Compile Include="PresentationLayer\FormCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormCustomer.Designer.cs">
+    <Compile Include="PresentationLayer\FormCustomer.Designer.cs">
       <DependentUpon>FormCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormPayment.cs">
+    <Compile Include="PresentationLayer\FormPayment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormPayment.Designer.cs">
+    <Compile Include="PresentationLayer\FormPayment.Designer.cs">
       <DependentUpon>FormPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormReservation.cs">
+    <Compile Include="PresentationLayer\FormReservation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormReservation.Designer.cs">
+    <Compile Include="PresentationLayer\FormReservation.Designer.cs">
       <DependentUpon>FormReservation.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRoomChange.cs">
+    <Compile Include="PresentationLayer\FormRoomChange.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRoomChange.Designer.cs">
+    <Compile Include="PresentationLayer\FormRoomChange.Designer.cs">
       <DependentUpon>FormRoomChange.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormRoomList.cs">
+    <Compile Include="PresentationLayer\FormRoomList.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormRoomList.Designer.cs">
+    <Compile Include="PresentationLayer\FormRoomList.Designer.cs">
       <DependentUpon>FormRoomList.cs</DependentUpon>
     </Compile>
     <Compile Include="LogicLayer\AdminManager.cs" />
@@ -138,34 +138,34 @@
     <Compile Include="LogicLayer\RoomManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormCustomerChange.resx">
+    <EmbeddedResource Include="PresentationLayer\FormCustomerChange.resx">
       <DependentUpon>FormCustomerChange.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCustomerRegister.resx">
+    <EmbeddedResource Include="PresentationLayer\FormCustomerRegister.resx">
       <DependentUpon>FormCustomerRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAdminEntry.resx">
+    <EmbeddedResource Include="PresentationLayer\FormAdminEntry.resx">
       <DependentUpon>FormAdminEntry.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAdmin.resx">
+    <EmbeddedResource Include="PresentationLayer\FormAdmin.resx">
       <DependentUpon>FormAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormAdminRegister.resx">
+    <EmbeddedResource Include="PresentationLayer\FormAdminRegister.resx">
       <DependentUpon>FormAdminRegister.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormCustomer.resx">
+    <EmbeddedResource Include="PresentationLayer\FormCustomer.resx">
       <DependentUpon>FormCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormPayment.resx">
+    <EmbeddedResource Include="PresentationLayer\FormPayment.resx">
       <DependentUpon>FormPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormReservation.resx">
+    <EmbeddedResource Include="PresentationLayer\FormReservation.resx">
       <DependentUpon>FormReservation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRoomChange.resx">
+    <EmbeddedResource Include="PresentationLayer\FormRoomChange.resx">
       <DependentUpon>FormRoomChange.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormRoomList.resx">
+    <EmbeddedResource Include="PresentationLayer\FormRoomList.resx">
       <DependentUpon>FormRoomList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
