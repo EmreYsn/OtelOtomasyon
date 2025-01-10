@@ -31,17 +31,22 @@
 #
 #
 ## Proje Görüntüleri
-### Admin Giriş Formu
+### Yönetici Giriş Formu
  ![FormAdminEntry](ScreenShoot/FormAdminEntry.jpg)
-
+ 
 + Yönetici bu formda sisteme giriş yapmak için kayıtlı olan kullanıcı adı ve de şifresini girecek .
-
 #
 #
- ### Admin Ana Formu
+ ### Yönetici Ana Formu
 ![FormAdmin](ScreenShoot/FormAdmin.jpg)
 
 + Yönetici bu formda oda ekleyebilecek , silebilecek , durumunu güncelleyebilecek ve de oda tipini değiştirebilecek . Bu formdan müşteri işlemleri , oda listesi , yönetici kaydı ve fatura formlarına geçiş yapabilecektir .
+#
+#
+### Yönetici Kayıt Formu
+![FormAdminRegister](ScreenShoot/FormAdminRegister.jpg)
+
++ Yönetici bu formda kendi gibi bir yöneticinin kaydını yapacaktır .
 #
 #
 ### Müşteri Formu
@@ -68,10 +73,9 @@
 + Yönetici bu formdan önce FormCustomer.cs üzerinde listeden bir müşteri seçecek ve bu forma geçtiğinde seçtiği müşterinin telefon numarası , adı ve soyadı gözükecektir . Bu form üzerinde yönetici müşterinin otele giriş tarihi , otelden çıkış tarihi , hangi tip odada kalacağı ve oda numarasının kaç olacağını seçecektir . Yönetici bu formda oluştur butonuna basınca hem rezervasyon oluşturacak hem de rezervasyonun faturasını oluşturacaktır .
 #
 #
-### Yönetici Kayıt Formu
-![FormAdminRegister](ScreenShoot/FormAdminRegister.jpg)
-
-+ Yönetici bu formda kendi gibi bir yöneticinin kaydını yapacaktır .
+### Fatura Formu
+![FormPayment](ScreenShoot/FormPayment.jpg)
++ Yönetici bu formdan önce FormAdmin.cs üzerinde fatura tablosunda bir fatura seçicek ve bu forma geçince seçtiği faturanın bilgileriyle birlikte müşterinin adını , soyadını ve telefon numarasını ayrıca odanın numarasını , tipini ve odanın günlük fiyatını ve son olarak rezervasyonun Id'sini , müşterinin otele giriş zamanını , otelden çıkış zamanını ve toplam fiyatı görüntüleyebilecektir .
 #
 #
 ### Oda Listesi Formu
@@ -86,6 +90,6 @@
 + Yönetici bu formdan önce FormAdmin.cs üzerinde bir oda seçicek ve bu forma geçince seçili odanın bilgisini değiştirebilecektir .
 #
 #
-### Youtube Linki
-
+## Youtube
 + Youtube videosu linki = https://youtu.be/iTt9VyocPB0
+#
