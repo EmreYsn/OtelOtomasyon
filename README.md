@@ -8,7 +8,7 @@ Yönetici sisteme giriş yaptıktan sonra yine kendisi gibi bir yönetici ekleye
 
 ![UseCase](ScreenShoot/Use-Case.png)
 
-Yönetici otele bağlıdır ve sisteme giriş yaparak oda , nüşteri , rezervasyon ve fatura yönetimini yapar .
+Yönetici otele bağlıdır ve sisteme giriş yaparak oda , müşteri , rezervasyon ve fatura yönetimini yapar .
 
 ![Sınıf](ScreenShoot/Sınıf.png)
 
